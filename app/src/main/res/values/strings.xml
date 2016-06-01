@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FloatingBallWindow</string>
+    <string name="is_open_floating_win">是否开启悬浮窗口</string>
+</resources>

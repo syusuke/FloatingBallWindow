@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/popview_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/size_8_dp">
+
+        <ImageView
+            android:id="@+id/id_pop_shot_gif"
+            android:layout_width="@dimen/size_48_dp"
+            android:layout_height="@dimen/size_48_dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="@dimen/size_8_dp"
+            android:src="@drawable/ic_gif_black_24px"/>
+
+        <ImageView
+            android:id="@+id/id_pop_shot_video"
+            android:layout_width="@dimen/size_48_dp"
+            android:layout_height="@dimen/size_48_dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="@dimen/size_8_dp"
+            android:src="@drawable/ic_videocam_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/id_pop_shot_folder"
+            android:layout_width="@dimen/size_48_dp"
+            android:layout_height="@dimen/size_48_dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="@dimen/size_8_dp"
+            android:src="@drawable/ic_folder_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/id_pop_shot_settings"
+            android:layout_width="@dimen/size_48_dp"
+            android:layout_height="@dimen/size_48_dp"
+            android:background="@drawable/popup_item_bg_1"
+            android:padding="@dimen/size_8_dp"
+            android:src="@drawable/ic_settings_black_24dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
