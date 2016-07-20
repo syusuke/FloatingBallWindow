@@ -211,7 +211,9 @@ public class FloatingView {
                 }
                 return super.dispatchKeyEvent(event);
             } else {
-                return super.dispatchKeyEvent(event);
+//                TODO
+//                return super.dispatchKeyEvent(event);
+                return false;
             }
         }
 

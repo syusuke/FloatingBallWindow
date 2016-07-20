@@ -71,13 +71,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-/*
+
     @Override
     protected void onPause() {
         myUnBindService();
         super.onPause();
     }
-*/
+
 
     @Override
     protected void onStop() {
@@ -91,14 +91,19 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
+    @Override
+    protected void onRestart() {
+        myBindService();
+        super.onRestart();
+    }
 
-/*
+
     @Override
     protected void onResume() {
         myBindService();
         super.onResume();
     }
 
-*/
+
 
 }
